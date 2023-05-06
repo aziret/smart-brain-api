@@ -1,7 +1,7 @@
 User login/signin API for face-recognition app that consists of 3 parts:
 
-1. backend for user login/signin (this app)
-2. frontend for login/signing and using Clarifai's face-detection API
+1. backend for user login/signin and using Clarifai's face-detection API (this app)
+2. frontend for login/signing
 3. DB for saving users
 
 ## How to start:
@@ -35,6 +35,8 @@ DB_HOST='127.0.0.1'
 DB_USER=db_username
 DB_PASSWORD=db_password
 DB_NAME=db_name
+MODEL_ID=ClarifaiModelId // e.g. face-detection
+API_KEY=ClarifaiApiKey // you can get it after creating an app in Clarifai
 ```
 
 5. Start the server, here nodemon is used: `npm start`
